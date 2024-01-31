@@ -1,0 +1,7 @@
+Bagaimana cara menngatasi error ketika kita menngaktifkan Mysql
+ A. Buka filemanager->Windows(c:)->xampp->mysql
+ B. Rename folder data ke data_lama
+ C. Lalu copy folder backup dan paste kembali didalam folder yang sama, rename folder backup - copy menjadi data
+ D. Salin semua folder/projek anda dari folder data_lama kecuali (except mysql, performance_schema, dan phpmyadmin folders)
+ E. Copy juga file ibdata1 dari folder data_lama dan paste pada folder data
+-Lalu buka XAMpp lalu nyalakan Mysql.
